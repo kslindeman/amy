@@ -1,0 +1,20 @@
+@import "nav";
+
+footer {
+  bottom: 0;
+  padding: 10px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
